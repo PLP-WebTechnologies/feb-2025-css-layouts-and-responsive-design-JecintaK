@@ -1,0 +1,348 @@
+.title{
+  color: rgb(92, 14, 128);
+  font-size: 30px;
+  text-align: center;
+}
+
+.bed1 {
+  width: 300px;
+  object-fit: cover;
+  float: left;
+  padding-right: px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+  margin-right: 20px;
+}
+.bed1:hover {
+  transform: scale(1.1);
+}
+
+.executive-bed{
+  width: 300px;
+  object-fit: cover;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+  margin-right: 20px;
+
+}
+.executive-bed:hover {
+  transform: scale(1.1);
+}
+.luxury-suite{
+  width: 300px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+  margin-right: 20px;
+
+}
+.luxury-suite:hover{
+transform: scale(1.1);
+}
+
+.contact-form{
+  border-radius: 200px;
+  border-color: aqua;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start; /* This keeps the images aligned to the left */
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+      
+.family{
+  width: 300px;
+  object-fit: cover;
+  float: left;
+  margin-right: px;
+  
+  
+
+}
+.outdoor{
+  width: 450px;
+  object-fit: cover;
+  float: left;
+  padding-right: px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+  margin-right: 20px;
+}
+.outdoor:hover{
+  transform: scale(1.1);
+  transition:transform 0.3s ease;
+}
+
+.outdoor-lights{
+  width: 450px;
+  object-fit: cover;
+  float: left;
+  padding-right: px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+  margin-right: 20px;
+}
+.outdoor-lights:hover{
+  transform: scale(1.1);
+  transition:transform 0.3s ease;
+}
+.backyard{
+  box-sizing: border-box;
+  color: rgb(92, 14, 128);
+  display: block;
+  font-family: AntiqueOli_Bold;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  height: 39.5938px;
+  letter-spacing: normal;
+  line-height: 39.6px;
+  text-align: center;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  width: 370px;
+  padding-top: 50px;
+}
+.Spa{
+  font-size: 36px;
+  text-align: center;
+  box-sizing border-box;
+  color: rgb(92, 14, 128);
+  display: block;
+  font-family: AntiqueOli_Bold;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  height: 39.5938px;
+  letter-spacing: normal;
+  line-height: 39.6px;
+  text-align: center;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  width: 370px;
+
+}
+.spa1{
+  width: 300px;
+  object-fit: cover;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+  margin-right: 20px;
+
+}
+.spa1:hover{
+  transform: scale(1.1);
+  transition:transform 0.3s ease;
+}
+.spa2{
+  width: 350px;
+  object-fit: cover;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+  margin-right: 20px;
+
+}
+.spa2:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.spa3{
+  width: 295px;
+  object-fit: cover;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+  margin-right: 20px;
+
+}
+.spa3:hover{
+  transform: scale(1.1); 
+  transition:transform 0.3s ease;
+}
+.contact-form {
+  background-color: rgb(249,249,249); 
+  border: 2px solid rgb(213,166,241); 
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+
+}
+.contact-form label {
+  color: rgb(211,110,179); 
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+  border: 1px solid rgb(213,166,241); 
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 100px; 
+}
+
+.contact-form button {
+  background-color: rgb(211,110,159); 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: rgb(162,75,124); 
+}
+
+.question {
+  font-size: 19px;
+  margin-bottom: 10px;
+  color: rgb (51, 51, 51);
+}
+
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.radio-option {
+  display: flex;
+  align-items: center;
+}
+
+
+.radio-option input[type="radio"] {
+ accent-color: rgb(166, 74, 201); 
+ margin-right: 10px;
+cursor: pointer;
+}
+
+
+.radio-option label {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.radio-option label:hover {
+  color: rgb(166, 74,201); 
+}
+
+
+.radio-group {
+  padding: 10px;
+}
+.question {
+ font-size: 1.2em;
+ margin-bottom: 5px;
+ color: #333;
+}
+
+.number-input {
+ width: 100px; 
+ padding: 8px;
+ font-size: 1em;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ outline: none;
+ transition: border-color 0.3s ease;
+}
+
+.number-input:focus {
+ border-color: #a64ac9; 
+ box-shadow: 0 0 5px rgba(166, 74, 201, 0.5); 
+}
+
+.input-container {
+ margin-bottom: 15px;
+}
+.booking{
+ color: rgb(72, 30,92);
+ display: block;
+ font-size: 36px;
+ font-weight: 700;
+ text-align: left;
+ text-size-adjust: 100%;
+}
+.caption{
+ color: rgb(92, 30, 92);
+ font-weight: 400;
+ font-size: 20px;
+ text-align: left;
+ text-size-adjust: 100%;
+}
+.swim1{
+  cursor: pointer;
+  height: 220px;
+  object-fit: cover;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the figcaption below the image */
+}
+.swim1:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.swim2{
+  height: 220px;
+  object-fit: cover;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  
+}
+.swim2:hover{
+  transform: scale(1.1); 
+  transition: transform 0.3s ease;
+}
+.swim3{
+  height: 220px;
+  object-fit: cover;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.swim3:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+

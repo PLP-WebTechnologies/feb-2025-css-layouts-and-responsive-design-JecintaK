@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hotel Booking Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    
+  </head>
+  <body>
+    
+      <p class="hero-section">logo</p>
+      <h1 class="title">Sierra's getaway</h1>
+      <p class="caption">
+        Welcome to Sierra's Getaway! Our luxury hotel offers world-class amenities and exceptional service for a comfortable and unforgettable stay. Enjoy our spacious rooms, state-of-the-art spa, and exquisite dining options. Whether you’re here for relaxation or adventure, we provide the perfect setting for a memorable experience.
+        </p>
+        <!-- <div>
+          <img class="family" src="happy family.jpg">
+        </div> -->
+
+    
+      
+        <p class="question">Duration of your stay?</p>
+        <div class="radio-group">
+          <div class="radio-option">
+           <input type="radio" id="one-night" name="duration" value="1-night" />
+           <label for="one-night">1 Night</label>
+          </div>
+          <div class="radio-option">
+          <input type="radio" id="two-nights" name="duration" value="2-nights" />
+          <label for="two-nights">2 Nights</label>
+          </div>
+          <div class="radio-option">
+          <input type="radio" id="three-nights" name="duration" value="3-nights" />
+          <label for="three-nights">3 Nights</label>
+          </div>
+          <div class="radio-option">
+          <input type="radio" id="more-than-three" name="duration" value="more-than-3-nights" />
+          <label for="more-than-three">More than 3 Nights</label>
+          </div>
+        </div>
+
+      <div>
+        <p class="question">How many adults will be staying?</p>
+        <input type="number" id="adults" name="adults" class="number-input" />
+        <p>How many children will be staying?</p>
+        <input type="number" id="children" name="children" class="number-input"/>
+      </div>
+
+      
+   
+  </div>
+  <div class="container">
+    <figure>
+      <img class="bed1" src="bed 1.jpg" alt="Bed Image">
+      <figcaption>Bed</figcaption>
+    </figure>
+    
+    <figure>
+      <img class="executive-bed" src="executive bed 1.jpg" alt="Executive Bed Image">
+      <figcaption>Executive Bed</figcaption>
+    </figure>
+    
+    <figure>
+      <img class="luxury-suite" src="luxury suite bed.jpg" alt="Luxury Suite Image">
+      <figcaption>Luxury Suite</figcaption>
+    </figure>
+  </div>
+  <!--
+  <figure>
+    <img class="family" src="happy family.jpg">
+    <figcaption>Happy-Family</figcaption>
+  </figure>
+-->
+  <div class="container">
+    <figure>
+      <img class="swim1" style="background-image: url(swimming/ pool.jpy); background-position: 50.0% 50.0%"; src="swimming pool.jpg">
+    </figure>
+    <figure>
+      <img class="swim2" src="tropics.jpg">
+    </figure>
+    <figure>
+      <img class="swim3" src="indoor swimming.jpg">
+    </figure>
+  </div>
+
+
+  <div>
+    <h2 class="booking">
+      Book With Us <span style='font-size:35px;'>&#128374;</span>
+    </h2>
+  </div>
+  <p class="caption">
+    At Sierra's getaway you get to enjoy luxury and comfort at unbeatable prices. Your perfect getaway starts here!
+  </p>
+  <p class="caption">
+    Browse our handpicked hotels and enjoy a hassle-free booking experience.
+  </p>
+
+
+  <div>
+    <h2 class="backyard">BACKYARDS</h2>
+  </div>
+
+  <div class="container">
+    <figure>
+      <img class="outdoor" src="outdoor.jpg">
+      <figcaption>outdoor</figcaption>
+    </figure>
+
+    <figure>
+      <img class="outdoor-lights" src="outdoor with lights.jpg">
+      <figcaption>outdoor with lights</figcaption>
+    </figure>
+  </div>
+  <div>
+    <h2 class="Spa">SPA</h2>
+  </div>
+  <div class="container">
+    <figure>
+      <img class="spa1" src="spa.jpg">
+      <figcaption>spa</figcaption>
+    </figure>
+    <figure>
+      <img class="spa2" src="spa 2.jpg">
+      <figcaption>luxury spa</figcaption>
+    </figure>
+    <figure>
+      <img class="spa3" src="spa 3.jpg">
+      <figcaption>deluxe spa</figcaption>
+    </figure>
+
+  </div>
+
+  
+    
+
+  <div>
+    <h3>For inquiries or complaints, fill in the form</h3>
+    <form class="contact-form" method="post" action="/submit-form">
+      <label for="name">Your name</label><br>
+      <input type="text" id="name" name="name" placeholder="Your name" required><br>
+      <label for="email">Your Email</label><br>
+      <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+      <label for="message">Message</label><br>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea><br>
+      <button type="submit">SEND</button>
+    </form>
+  </div>
+  
+  
+
+</html>
